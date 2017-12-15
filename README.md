@@ -6,7 +6,7 @@ User can change the keep_drop value in TensorFlow.py at line 49 to change the ke
    &nbsp;&nbsp;&nbsp; <span style="color:blue">*sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys,keep_prob: 1})*</span>
 ## Iteration modification
 User can also change the number of training iteration at line 47.<br />
-   &nbsp;&nbsp;&nbsp <span style="color:blue">*for _ in range(20000): ...*</span>
+   &nbsp;&nbsp;&nbsp; <span style="color:blue">*for _ in range(20000): ...*</span>
 
 ## Weights dimension modification
 User can also change the input output layers' weight dimension by editing the input layer and output layer's matrix as long as the input and output sides are 784 to 10.<br />
