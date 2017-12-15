@@ -3,7 +3,7 @@ A simple exploration project to the drop-out mechanism in neural network
 
 ## Keep_drop modification
 User can change the keep_drop value in TensorFlow.py at line 49 to change the keep rate(the rate of keeping the neural unit output, 1 will means the drop out layer will not drop any unit output).<br />
-   &nbsp;&nbsp;&nbsp *sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys,keep_prob: 1})*
+   &nbsp;&nbsp;&nbsp; *sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys,keep_prob: 1})*
 ## Iteration modification
 User can also change the number of training iteration at line 47.<br />
    &nbsp;&nbsp;&nbsp *for _ in range(20000): ...*
